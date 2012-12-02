@@ -4,7 +4,7 @@ body { background-color: #00d000; }
   display:none;
 }
 #videoContainer {
-  position:relative;
+  left:auto !important;
   float:right;
 }
 #prevVideoContainer {
