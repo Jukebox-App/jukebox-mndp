@@ -37,7 +37,7 @@ input.chatbox {
 /* Lighten chat box input border */
 .chatBoxWrap {
   border:0 !important;
-  margin-left:1px;
+  margin-left:1px !important;
 }
 
 .rowFull.inputRow {
