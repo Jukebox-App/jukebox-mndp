@@ -1,6 +1,7 @@
 body { background-color: #fff; }
 
 #socialmedia { display:none; }
+#layoutSelect { display:none; }
 
 /* Reposition video to top-right */
 #videoContainer {
