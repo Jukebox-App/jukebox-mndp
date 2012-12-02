@@ -37,6 +37,7 @@ input.chatbox {
 /* Lighten chat box input border */
 .chatBoxWrap {
   border:0 !important;
+  margin-left:1px;
 }
 
 .rowFull.inputRow {
@@ -46,4 +47,4 @@ input.chatbox {
   margin-bottom:-30px !important;
 }
 .broadcastIcon { width:12px !important; height:9px !important; }
-.broadcastLink { width:14px !important; height:11px !important; }
+.broadcastLink { width:14px !important; height:11px !important; margin-top:2px; }
