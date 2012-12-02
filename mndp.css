@@ -18,15 +18,12 @@ body { background-color: #fff; }
 }
 
 /* Extending chat window to fill iframe */
-#chat,.chatClientWrap {
-  /*bottom:0 !important;*/
+#chat,#chatWrapper,.chatClientWrap {
   left:0 !important;
   right:0 !important;
 }
-#chatWrapper {
-  /*bottom:20px !important;*/
-  left:0 !important;
-  right:0 !important;
+.chatClientWrap {
+  bottom:22px !important;
 }
 .rowFull.shadow.mainRow {
   border:1px solid #ccc;
