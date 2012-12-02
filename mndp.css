@@ -13,4 +13,6 @@ body { background-color: #00d000; }
 }
 #chat,#chatWrapper,#chatClientWrap {
   bottom:0;
+  left:0;
+  right:0;
 }
