@@ -28,7 +28,7 @@ body { background-color: #fff; }
   left:0 !important;
   right:0 !important;
 }
-.postWindow {
+.rowFull.shadow.mainRow {
   border:1px solid #ccc;
 }
 
@@ -38,5 +38,5 @@ body { background-color: #fff; }
   right:0 !important;
   margin-bottom:-30px !important;
 }
-.broadcastIcon { width:12px; height:9px; }
-.broadcastLink { width:14px; height:11px; }
+.broadcastIcon { width:12px !important; height:9px !important; }
+.broadcastLink { width:14px !important; height:11px !important; }
