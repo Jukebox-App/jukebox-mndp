@@ -11,3 +11,6 @@ body { background-color: #00d000; }
   width:400px !important;
   font-size:60%;
 }
+#chat,#chatWrapper,#chatClientWrap {
+  bottom:0;
+}
