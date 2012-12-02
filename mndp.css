@@ -16,3 +16,6 @@ body { background-color: #00d000; }
   left:0 !important;
   right:0 !important;
 }
+.chatClientWrap,.postWindow {
+  border-radius:0;
+}
