@@ -2,7 +2,7 @@ body { background-color: #fff; }
 
 #socialmedia { display:none; }
 
-// Reposition video to top-right
+/* Reposition video to top-right */
 #videoContainer {
   left:auto !important;
   float:right;
@@ -16,13 +16,17 @@ body { background-color: #fff; }
   font-size:12pt !important;
 }
 
-// Extending chat window to fill iframe
+/* Extending chat window to fill iframe */
 #chat,.chatClientWrap {
   bottom:0px !important;
   left:0 !important;
   right:0 !important;
 }
-#chatWrapper { bottom:20px !important; left:0 !important; right:0 !important; }
+#chatWrapper {
+  bottom:20px !important;
+  left:0 !important;
+  right:0 !important;
+}
 .postWindow {
   border:1px solid #ccc;
 }
