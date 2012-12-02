@@ -12,7 +12,7 @@ body { background-color: #00d000; }
   font-size:60%;
 }
 #chat,#chatWrapper,#chatClientWrap {
-  bottom:0;
-  left:0;
-  right:0;
+  bottom:0 !important;
+  left:0 !important;
+  right:0 !important;
 }
