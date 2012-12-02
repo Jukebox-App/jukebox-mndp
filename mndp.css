@@ -9,7 +9,7 @@ body { background-color: #fff; }
 }
 #prevVideoContainer {
   width:400px !important;
-  font-size:80% !important;
+  font-size:12pt !important;
 }
 #chat,#chatWrapper,.chatClientWrap {
   bottom:0 !important;
@@ -21,5 +21,5 @@ body { background-color: #fff; }
 }
 #songList {
   width:400px;
-  font-size:80% !important;
+  font-size:12pt !important;
 }
