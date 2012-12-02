@@ -4,10 +4,10 @@ body { background-color: #00d000; }
   display:none;
 }
 #videoContainer {
-  right:0;
-  top:0;
-  left:!auto;
+  position:relative;
+  float:right;
 }
 #prevVideoContainer {
   width:400px;
+  font-size:80%;
 }
