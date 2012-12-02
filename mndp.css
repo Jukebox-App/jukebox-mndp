@@ -32,7 +32,7 @@ body { background-color: #fff; }
 /* Fix chatbox width in FF */
 input.chatbox {
   width:100%;
-  border:1px solid #bbb;
+  border:1px solid #bbb !important;
 }
 /* Lighten chat box input border */
 .chatBoxWrap {
