@@ -32,10 +32,11 @@ body { background-color: #fff; }
 /* Fix chatbox width in FF */
 input.chatbox {
   width:100%;
+  border:1px solid #bbb;
 }
 /* Lighten chat box input border */
 .chatBoxWrap {
-  border:1px solid #bbb;
+  border:0 !important;
 }
 
 .rowFull.inputRow {
