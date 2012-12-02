@@ -1,1 +1,13 @@
 body { background-color: #00d000; }
+
+#socialmedia {
+  display:none;
+}
+#videoContainer {
+  right:0;
+  top:0;
+  left:auto;
+}
+#prevVideoContainer {
+  width:400px;
+}
