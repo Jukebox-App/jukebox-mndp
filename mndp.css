@@ -27,6 +27,8 @@ body { background-color: #fff; }
 }
 .rowFull.shadow.mainRow {
   border:1px solid #ccc;
+  /*try to make all text smaller!*/
+  font-size:80%;
 }
 
 /* Fix chatbox width in FF */
