@@ -1,4 +1,4 @@
-body { background-color: #fff; }
+body { background-color: #fff; font-size:10pt !important; }
 
 #socialmedia { display:none; }
 #layoutSelect { display:none; }
@@ -10,11 +10,11 @@ body { background-color: #fff; }
 }
 #prevVideoContainer {
   width:400px !important;
-  font-size:12pt !important;
+  font-size:10pt !important;
 }
 #songList {
   width:400px;
-  font-size:12pt !important;
+  font-size:10pt !important;
 }
 
 /* Extending chat window to fill iframe */
@@ -27,8 +27,6 @@ body { background-color: #fff; }
 }
 .rowFull.shadow.mainRow {
   border:1px solid #ccc;
-  /*try to make all text smaller!*/
-  font-size:50%;
 }
 
 /* Fix chatbox width in FF */
