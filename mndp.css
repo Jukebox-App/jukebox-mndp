@@ -1,5 +1,5 @@
 body { background-color: #fff; }
-* { font-size:80% !important; }
+* { font-size:10pt !important; }
 
 #socialmedia { display:none; }
 #layoutSelect { display:none; }
@@ -47,7 +47,7 @@ input.chatbox {
 }
 .broadcastIcon { width:12px !important; height:9px !important; }
 .broadcastLink { width:14px !important; height:11px !important; margin-top:4px; }
-.postRow,.myPostRow,.postMentionRow { padding:1px !important; }
+.postRow,.myPostRow,.postMentionRow { padding:0 !important; }
 
 /**** Mobile ****/
 @media only screen and (max-width: 799px) {
