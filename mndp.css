@@ -50,4 +50,7 @@ input.chatbox {
 .broadcastLink { width:14px !important; height:11px !important; margin-top:4px; }
 
 /**** Mobile ****/
-@media only screen and (max-width: 799px) { #prevVideoContainer,#userWindows { display:none; } }
+@media only screen and (max-width: 799px) {
+  #prevVideoContainer,#userWindows { display:none; }
+  #videoContainer { width:100% !important;height:auto;max-height:200px; }
+}
