@@ -51,7 +51,8 @@ input.chatbox {
 
 /**** Mobile ****/
 @media only screen and (max-width: 799px) {
-  #prevVideoContainer,#userWindows { display:none; }
+  #prevVideoContainer,.userWindow { display:none; }
+  .postWindow { right:0 !important; }
   #videoContainer { width:100% !important;height:auto;max-height:200px; }
   .postTimestamp,.postMentionTimestamp { display:none; }
   .postRow,.myPostRow,.postMentionRow { max-width:100%; }
