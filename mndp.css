@@ -1,5 +1,5 @@
 body { background-color: #fff; }
-body,.postRow,.myPostRow,.postMentionRow { font-size:10pt !important; }
+* { font-size:10pt !important; }
 
 #socialmedia { display:none; }
 #layoutSelect { display:none; }
