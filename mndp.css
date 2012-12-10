@@ -1,5 +1,5 @@
 body { background-color: #fff; }
-* { font-size:10pt !important; }
+* { font-size:80% !important; }
 
 #socialmedia { display:none; }
 #layoutSelect { display:none; }
@@ -47,6 +47,7 @@ input.chatbox {
 }
 .broadcastIcon { width:12px !important; height:9px !important; }
 .broadcastLink { width:14px !important; height:11px !important; margin-top:4px; }
+.postRow,.myPostRow,.postMentionRow { padding:1px !important; }
 
 /**** Mobile ****/
 @media only screen and (max-width: 799px) {
@@ -55,4 +56,5 @@ input.chatbox {
   #videoContainer { width:100% !important;height:auto;max-height:140px; }
   .postTimestamp,.postMentionTimestamp { display:none !important; }
   .postRow,.myPostRow,.postMentionRow { max-width:100% !important; }
+  .rowFull.shadow.mainRow { border-right:0; border-left:0; }
 }
