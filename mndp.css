@@ -37,6 +37,7 @@ input.chatbox {
 .chatBoxWrap {
   border:0 !important;
   margin-left:1px !important;
+  right:185px !important;
 }
 
 .rowFull.inputRow {
@@ -55,6 +56,7 @@ input.chatbox {
   .postWindow { right:0 !important; }
   #videoContainer { width:100% !important; height:140px !important; }
   #ytPlayer { height:140px !important; }
+  #chatWrapper { top:150px !important; }
   .postTimestamp,.postMentionTimestamp { display:none !important; }
   .postRow,.myPostRow,.postMentionRow { max-width:100% !important; }
   .rowFull.shadow.mainRow { border-right:0; border-left:0; }
