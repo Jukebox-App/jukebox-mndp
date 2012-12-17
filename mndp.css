@@ -56,7 +56,17 @@ input.chatbox {
 .author { padding:0 4px !important;border:1px solid #fff;border-radius:6px }
 
 /**** Mobile ****/
-@media only screen and (max-width: 799px) {
+@media only screen and (max-width: 899px) {
+  #prevVideoContainer,.userWindow { display:none; }
+  .postWindow { right:0 !important; }
+  #videoContainer { width:100% !important; height:140px !important; }
+  #ytPlayer { height:140px !important; }
+  #chatWrapper { top:142px !important; }
+  .postTimestamp,.postMentionTimestamp,.myPostTimestamp { display:none !important; }
+  .postRow,.myPostRow,.postMentionRow { max-width:100% !important; }
+  .rowFull.shadow.mainRow { border-right:0; border-left:0; }
+}
+@media handheld {
   #prevVideoContainer,.userWindow { display:none; }
   .postWindow { right:0 !important; }
   #videoContainer { width:100% !important; height:140px !important; }
