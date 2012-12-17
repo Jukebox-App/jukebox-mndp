@@ -1,8 +1,7 @@
 body { background-color: #fff; }
 * { font-size:10pt !important; }
 
-#socialmedia { display:none; }
-#layoutSelect { display:none; }
+#socialmedia,#layoutSelect { display:none; }
 
 /* Reposition video to top-right */
 #videoContainer {
@@ -21,6 +20,10 @@ body { background-color: #fff; }
   left:0 !important;
   right:0 !important;
 }
+/* Adjust request/logout buttons  */
+#buttonbar { width:200px !important;margin-left:0 !important; }
+#chatWrapper { top:250px !important; z-index:-1; }
+
 .chatClientWrap {
   bottom:22px !important;
 }
