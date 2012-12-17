@@ -50,6 +50,8 @@ input.chatbox {
 .broadcastLink { width:14px !important; height:11px !important; margin-top:4px; }
 .postRow,.myPostRow,.postMentionRow { padding:0 1px !important; }
 
+.author { padding:0 4px !important;border:1px solid #fff;border-radius:2px }
+
 /**** Mobile ****/
 @media only screen and (max-width: 799px) {
   #prevVideoContainer,.userWindow { display:none; }
