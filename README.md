@@ -1,4 +1,4 @@
 jukebox-mndp
 ============
 
-Repository for MNDP customization
+Style sheets included to customize Vidcast for the #MondayNightDanceParty.
