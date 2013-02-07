@@ -54,6 +54,16 @@ input.chatbox {
 .postRow,.myPostRow,.postMentionRow { padding:0 1px !important; }
 
 .author { padding:0 4px !important;border:1px solid #fff;border-radius:6px }
+/* Adjust login text */
+#accessWarning {
+  width:320px;
+  height:40px;
+  top:-8px;
+  padding-left:15px;
+  background-color:#fff;
+  font-weight:bold;
+  color:#ff3300;
+}
 
 /**** Mobile ****/
 @media only screen and (max-width: 899px) {
