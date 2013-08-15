@@ -21,8 +21,8 @@ body { background-color: #fff; }
   right:0 !important;
 }
 /* Adjust request/logout buttons  */
-#buttonbar { margin-left:0 !important; }
-#chatWrapper { top:250px !important; z-index:-1; }
+#buttonbar { margin-left:0 !important;margin-top:20px; }
+#chatWrapper { top:260px !important; z-index:-1; }
 
 .chatClientWrap {
   bottom:22px !important;
